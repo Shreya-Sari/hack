@@ -1,0 +1,10 @@
+import axios from 'axios';
+
+const instance = axios.create({
+  baseURL: 'https://api.meersens.com/environment/public/water',
+  headers: {
+    'apikey': 'rgBqyRhCvQ2Ilcpyk3e3652kyo0KqCus'
+  }
+});
+
+export default instance;

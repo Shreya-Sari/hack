@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2024-06-08T16:49:50.843685",
+    "startedAt": "2024-06-08T16:49:48.868472",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\SARI SHREYA\\OneDrive\\Desktop\\hack\\aquarium_pretrain\\train.py",
+    "codePath": "train.py",
+    "host": "hotspot",
+    "username": "SARI SHREYA",
+    "executable": "C:\\Users\\SARI SHREYA\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2419.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2419.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "total": 275.70019149780273,
+        "used": 180.94334411621094
+    },
+    "gpu": "NVIDIA GeForce MX350",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX350",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 7.762321472167969
+    }
+}

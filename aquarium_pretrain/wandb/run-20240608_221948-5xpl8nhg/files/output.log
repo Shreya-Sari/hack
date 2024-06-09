@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 115, in get_img_files
+    raise FileNotFoundError(f"{self.prefix}{p} does not exist")
+FileNotFoundError: [34m[1mtrain: [39m[22mD:\hackathon\DATASET\datasets\aquarium_pretrain\train does not exist
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "C:\Users\SARI SHREYA\OneDrive\Desktop\hack\aquarium_pretrain\train.py", line 10, in <module>
+    results = model.train(data="data.yaml", epochs=3)
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\model.py", line 674, in train
+    self.trainer.train()
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 199, in train
+    self._do_train(world_size)
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 313, in _do_train
+    self._setup_train(world_size)
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\engine\trainer.py", line 277, in _setup_train
+    self.train_loader = self.get_dataloader(self.trainset, batch_size=batch_size, rank=RANK, mode="train")
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\models\yolo\detect\train.py", line 49, in get_dataloader
+    dataset = self.build_dataset(dataset_path, mode, batch_size)
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\models\yolo\detect\train.py", line 43, in build_dataset
+    return build_yolo_dataset(self.args, img_path, batch, self.data, mode=mode, rect=mode == "val", stride=gs)
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\build.py", line 87, in build_yolo_dataset
+    return dataset(
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\dataset.py", line 64, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 73, in __init__
+    self.im_files = self.get_img_files(self.img_path)
+  File "C:\Users\SARI SHREYA\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 120, in get_img_files
+    raise FileNotFoundError(f"{self.prefix}Error loading data from {img_path}\n{HELP_URL}") from e
+FileNotFoundError: [34m[1mtrain: [39m[22mError loading data from D:\hackathon\DATASET\datasets\aquarium_pretrain\train
+See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+Freezing layer 'model.22.dfl.conv.weight'

@@ -1,0 +1,386 @@
+[34m[1mtrain: [39m[22mScanning D:\hackathon\DATASET\datasets\aquarium_pretrain\train\labels.cache... 448 images, 1 backgrounds, 0 corrupt: 100%|██████████|
+[34m[1mval: [39m[22mScanning D:\hackathon\DATASET\datasets\aquarium_pretrain\valid\labels.cache... 127 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1
+Freezing layer 'model.22.dfl.conv.weight'
+Plotting labels to runs\detect\train12\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.000909, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+  0%|          | 0/28 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\train12
+Starting training for 10 epochs...
+Closing dataloader mosaic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/10         0G      1.536       3.78      1.267        101        640: 100%|██████████| 28/28 [11:52<00:00, 25.46s/it]
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  75%|███████▌  | 3/4 [00:36<00:11, 11.39s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:47<00:00, 11.76s/it]
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       2/10         0G      1.551      2.692      1.253         80        640: 100%|██████████| 28/28 [09:39<00:00, 20.70s/it]
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  75%|███████▌  | 3/4 [00:37<00:12, 12.19s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:48<00:00, 12.16s/it]
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       3/10         0G      1.526      2.271      1.245         97        640: 100%|██████████| 28/28 [08:23<00:00, 17.97s/it]
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  75%|███████▌  | 3/4 [00:31<00:09,  9.91s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:40<00:00, 10.09s/it]
+  0%|          | 0/28 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       4/10         0G      1.509      2.161      1.243        117        640: 100%|██████████| 28/28 [11:48<00:00, 25.30s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:46<00:00, 11.51s/it]
+                   all        127        909      0.406      0.343      0.316      0.167
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       5/10         0G      1.498       2.03      1.222        102        640: 100%|██████████| 28/28 [07:01<00:00, 15.05s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:44<00:00, 11.19s/it]
+                   all        127        909      0.397       0.45      0.385      0.196
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       6/10         0G      1.501      1.881      1.225        134        640: 100%|██████████| 28/28 [07:10<00:00, 15.37s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:47<00:00, 11.98s/it]
+                   all        127        909      0.594      0.492      0.528      0.281
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       7/10         0G      1.451      1.743      1.187        153        640: 100%|██████████| 28/28 [06:54<00:00, 14.81s/it]
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  75%|███████▌  | 3/4 [00:33<00:10, 10.65s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:43<00:00, 10.84s/it]
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       8/10         0G      1.389      1.667      1.181        107        640: 100%|██████████| 28/28 [11:05<00:00, 23.76s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:48<00:00, 12.24s/it]
+                   all        127        909      0.662      0.576      0.611      0.342
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       9/10         0G      1.349      1.641      1.173        179        640: 100%|██████████| 28/28 [08:26<00:00, 18.08s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:46<00:00, 11.65s/it]
+                   all        127        909      0.651      0.599      0.642      0.366
+  0%|          | 0/28 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      10/10         0G       1.35      1.563      1.168        131        640: 100%|██████████| 28/28 [07:03<00:00, 15.13s/it]
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:45<00:00, 11.47s/it]
+                   all        127        909      0.716      0.574      0.659      0.376
+10 epochs completed in 1.638 hours.
+Optimizer stripped from runs\detect\train12\weights\last.pt, 6.2MB
+Optimizer stripped from runs\detect\train12\weights\best.pt, 6.2MB
+Validating runs\detect\train12\weights\best.pt...
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/4 [00:00<?, ?it/s]
+Ultralytics YOLOv8.2.16 🚀 Python-3.10.5 torch-2.3.0+cpu CPU (11th Gen Intel Core(TM) i5-1135G7 2.40GHz)
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:36<00:00,  9.11s/it]
+                   all        127        909      0.717      0.574      0.658      0.375
+                  fish        127        459      0.671      0.673      0.706      0.394
+             jellyfish        127        155       0.74      0.877      0.901      0.491
+               penguin        127        104      0.603      0.663      0.658      0.298
+                puffin        127         74      0.794      0.312      0.513      0.259
+                 shark        127         57      0.655      0.509      0.598      0.341
+              starfish        127         27      0.795      0.407      0.582      0.395
+              stingray        127         33      0.759      0.576      0.651      0.447
+Speed: 3.3ms preprocess, 222.9ms inference, 0.0ms loss, 32.6ms postprocess per image
+Results saved to [1mruns\detect\train12
